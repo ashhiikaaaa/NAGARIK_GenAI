@@ -1,0 +1,1 @@
+# NAGARIK_GenAI
