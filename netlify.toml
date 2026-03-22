@@ -1,0 +1,9 @@
+[build]
+  # Directory where Netlify will find the serverless functions
+  functions = "netlify/functions"
+
+# Rewrite API requests to point to Netlify Functions silently
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
